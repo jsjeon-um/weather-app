@@ -6,7 +6,8 @@ body {
     margin: 0;
     background-color: black;
     font-family: 'Raleway', sans-serif;
-    background-image: url('https://source.unsplash.com/2000x1200?landscape');
+    background-image: url('https://source.unsplash.com/1600x900?landscape');
+    font-size: 120%;
 }
 
 .card {
@@ -18,3 +19,45 @@ body {
     max-width: 420px;
     margin: 1em;
 }
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 35px;
+    background-color: #7c7c7c4b;
+    color: white;
+    font-family: inherit;
+    font-size: 80%;
+    width: calc(100% - 100px);
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 42px;
+    width: 42px;
+    outline: none;
+    background-color: #7c7c7c4b;
+    color: white;
+    cursor: pointer;
+    transition: 0.35s ease-in-out;
+}
+
+button:hover {
+    background-color: #7c7c7c9b;
+}
+
+.temp {
+    margin: 0;
+}
+
+
