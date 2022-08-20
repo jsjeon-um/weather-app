@@ -18,8 +18,13 @@ body {
     width: 100%;
     max-width: 420px;
     margin: 1em;
+    border: 1px solid #eee;
 }
 
+.description {
+    text-transform: capitalize;
+    margin-left: 6px;
+}
 
 .search {
     display: flex;
@@ -58,6 +63,29 @@ button:hover {
 
 .temp {
     margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.humidity {
+    margin-bottom: 6px;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
 }
 
 
